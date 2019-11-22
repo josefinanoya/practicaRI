@@ -13,10 +13,13 @@ Scrapy -> 1.7.4
 
 Python -> 3.6.8
 
+npm -> 3.5.2
+
 Elastic Search -> 7.4.0
 
 ### Comandos de ejecucción
-Para realizar el crawling, en la carpeta /p1scrapy ejecutar "scrapy crawl phones".
+Para realizar el crawling, en la carpeta /p1scrapy ejecutar:
+`scrapy crawl phones`
 
 Para crear el índice en ElasticSearch:
 
@@ -153,10 +156,15 @@ Para crear el índice en ElasticSearch:
 }
 ```
 
-Para indexar los datos, en la carpeta /p1scrapy se ejecuta "python index_through.py".
+Para indexar los datos, en la carpeta /p1scrapy se ejecuta:
+`python index_through.py`
 
-Ejecutar "sudo systemctl start elasticsearch.service" para arrancar ElasticSearch.
+Para arrancar ElasticSearch:
+`sudo systemctl start elasticsearch.service`
 
-En la carpeta /vue-app ejecutar "npm run serve".
+En la carpeta /vue-app ejecutar:
+`npm install`
+`npm run serve`
 
-En la carpeta /back/phone-searcher ejecutar "mvn spring-boot:run".
+En la carpeta /back/phone-searcher ejecutar:
+`mvn spring-boot:run`
