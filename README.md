@@ -40,7 +40,7 @@ Para crear el índice en ElasticSearch:
 			}
 	}
 }
-´´´
+```
   
  2.- Hacer un PUT a http://localhost:9200/phones/_mapping con un header "Content-type application/json" con el siguiente body:
 	
