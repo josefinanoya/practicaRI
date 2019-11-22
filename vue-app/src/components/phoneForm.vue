@@ -411,11 +411,9 @@ const HTTP = axios.create({
 				else 
 					resolutions = this.allBackCamRes
 				
-				console.log(size)
 				resolutions.forEach(function(res){
 					if (res.split("+").length == size){
 						finalres.push(res)
-						console.log("osjd")
 					}
 				})
 				return finalres

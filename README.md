@@ -48,7 +48,7 @@ Para crear el índice en ElasticSearch:
 	}
 }
 ```
-  
+
  2.- Hacer un PUT a http://localhost:9200/phones/_mapping con un header "Content-type application/json" con el siguiente body:
 	
 ```
@@ -167,4 +167,9 @@ En la carpeta /vue-app ejecutar:
 `npm run serve`
 
 En la carpeta /back/phone-searcher ejecutar:
+
+`mvn clean`
+
+`mvn install`
+
 `mvn spring-boot:run`

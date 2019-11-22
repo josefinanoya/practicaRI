@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'p1scrapy.spiders'
 
 FEED_EXPORTERS = { 'jsonlines' : 'scrapy.exporters.JsonLinesItemExporter', }
 FEED_FORMAT = 'jsonlines'
-FEED_URI = 'menshirts.jl'
+FEED_URI = 'phones.jl'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
