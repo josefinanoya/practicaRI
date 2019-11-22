@@ -1,0 +1,12 @@
+
+back/phone-searcher/bin/
+
+back/phone-searcher/target/classes/
+
+back/phone-searcher/target/maven-status/maven-compiler-plugin/compile/default-compile/
+
+*.pyc
+
+back/phone-searcher/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/
+
+*.class
