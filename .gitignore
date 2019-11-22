@@ -1,24 +1,10 @@
 
 back/phone-searcher/bin/
 
-back/phone-searcher/target/classes/
-
-back/phone-searcher/target/maven-status/maven-compiler-plugin/compile/default-compile/
+back/phone-searcher/target/
 
 *.pyc
-
-back/phone-searcher/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/
 
 *.class
 
 vue-app/node_modules/
-
-
-back/phone-searcher/target/maven-archiver/
-
-back/phone-searcher/target/phone-searcher-0.0.1-SNAPSHOT.jar
-
-back/phone-searcher/target/surefire-reports/com.example.phonesearcher.PhoneSearcherApplicationTests.txt
-
-back/phone-searcher/target/phone-searcher-0.0.1-SNAPSHOT.jar.original
-back/phone-searcher/target/surefire-reports/TEST-com.example.phonesearcher.PhoneSearcherApplicationTests.xml
