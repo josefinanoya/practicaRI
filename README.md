@@ -21,6 +21,9 @@ Elastic Search -> 7.4.0
 Para realizar el crawling, en la carpeta /p1scrapy ejecutar:
 `scrapy crawl phones`
 
+Para arrancar ElasticSearch:
+`sudo systemctl start elasticsearch.service`
+
 Para crear el índice en ElasticSearch:
 
 1.- Hacer un PUT a http://localhost:9200/phones con un header "Content-type application/json" con el siguiente body:
@@ -158,9 +161,6 @@ Para crear el índice en ElasticSearch:
 
 Para indexar los datos, en la carpeta /p1scrapy se ejecuta:
 `python index_through.py`
-
-Para arrancar ElasticSearch:
-`sudo systemctl start elasticsearch.service`
 
 En la carpeta /vue-app ejecutar:
 `npm install`
